@@ -26,7 +26,7 @@ submitBtn.onclick = () => {
   isFirstNameOk = false;
 
   // validate first name
-  if (firstNameInput.value !== "CPE207") {
+  if (firstNameInput.value === "CPE207") {
     firstNameInput.classList.add("is-invalid");
   } else {
     firstNameInput.classList.add("is-valid");
